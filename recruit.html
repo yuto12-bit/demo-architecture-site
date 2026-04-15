@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>RECRUIT — REMEDORA BUILD</title>
+  <meta name="description" content="レメドラ建設 採用情報。現場を共につくる仲間を募集しています。少数精鋭のチームで、本物の手仕事を。">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <style>
+    /* Recruit page: header must sit on mustard bg — override text color kept light */
+    .recruit-page .site-header { background: transparent; }
+    .recruit-page .site-header--scrolled { background: rgba(22,22,22,.92); }
+  </style>
+</head>
+<body class="recruit-page">
+
+  <!-- ========================================================
+       SITE HEADER — transparent start (mustard bg behind)
+       ======================================================== -->
+  <header class="site-header site-header--transparent" role="banner">
+    <div class="site-header__inner">
+      <a href="index.html" class="site-header__logo" aria-label="REMEDORA BUILD トップ">
+        REMEDORA BUILD
+        <small>ARCHITECTURE &amp; CONSTRUCTION</small>
+      </a>
+      <div class="site-header__actions">
+        <a href="recruit.html" class="header-recruit-pill" aria-label="採用情報">RECRUIT</a>
+        <button class="menu-circle" aria-label="メニューを開く" aria-expanded="false" aria-controls="navOverlay">
+          <span class="menu-circle__bars" aria-hidden="true">
+            <span class="menu-circle__bar"></span>
+            <span class="menu-circle__bar"></span>
+            <span class="menu-circle__bar"></span>
+          </span>
+          <span class="menu-circle__label">MENU</span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- ========================================================
+       NAV OVERLAY
+       ======================================================== -->
+  <div class="nav-overlay" id="navOverlay" role="dialog" aria-modal="true" aria-label="ナビゲーション">
+    <button class="nav-overlay__close" aria-label="メニューを閉じる">&times;</button>
+    <div class="nav-overlay__inner">
+      <p class="nav-overlay__label">Navigation</p>
+      <nav class="nav-overlay__list" aria-label="メインナビゲーション">
+        <a href="index.html"   data-page="index.html">TOP</a>
+        <a href="company.html" data-page="company.html">COMPANY</a>
+        <a href="works.html"   data-page="works.html">WORKS</a>
+        <a href="recruit.html" data-page="recruit.html">RECRUIT</a>
+      </nav>
+    </div>
+  </div>
+
+  <main>
+
+    <!-- ======================================================
+         HERO — mustard bg, 3-line heading + blue badge
+         ====================================================== -->
+    <section class="recruit-hero" aria-label="採用メインビジュアル">
+
+      <p class="recruit-eyebrow">RECRUIT — 採用情報</p>
+
+      <!-- 3-line large heading + badge -->
+      <div class="recruit-hero__copy-wrap">
+        <span class="recruit-line">WE BUILD</span>
+        <span class="recruit-line">WITH</span>
+        <span class="recruit-line">PEOPLE.</span>
+      </div><!-- /.recruit-hero__copy-wrap -->
+
+      <!-- Sub copy -->
+      <p class="recruit-hero__text">
+        現場を共につくる仲間を、探しています。<br>
+        少数精鋭のチームだからこそ、<br>あなたの技術と意志が直接建物に宿ります。
+      </p>
+
+      <div class="flex-center">
+        <a href="#positions" class="pill pill--mustard-dark">募集要項を見る</a>
+      </div>
+
+    </section>
+
+    <!-- ======================================================
+         CURVE: mustard → white
+         ====================================================== -->
+    <div class="curve-divider" aria-hidden="true">
+      <svg viewBox="0 0 390 72" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none" height="72">
+        <rect x="0" y="0" width="390" height="72" fill="#E3C11B"/>
+        <path d="M0,0 C97.5,72 292.5,72 390,0 L390,72 L0,72 Z" fill="#FAFAF8"/>
+      </svg>
+    </div>
+
+    <!-- ======================================================
+         RECRUIT BODY — white panel, details
+         ====================================================== -->
+    <section class="recruit-body" aria-label="採用について">
+      <p class="recruit-body__eyebrow">Why Kanade Build</p>
+      <h2 class="recruit-body__title">
+        小さいから、<br>
+        深く関われる。
+      </h2>
+      <p class="recruit-body__text">
+        レメドラ建設は社員12名の小さな会社です。現場では職人と設計者が隣り合わせで働き、すべての工程に名前と顔がある。大きな組織では経験できない「一棟を最初から最後まで見届ける」体験が、ここにあります。
+      </p>
+      <p class="recruit-body__text">
+        未経験の方にも、丁寧に現場から教えます。まずは見学・面談から。あなたのペースで話しましょう。
+      </p>
+
+      <div class="flex-center">
+        <a href="company.html" class="pill pill--dark" style="margin-bottom: 0;">会社の想いを読む</a>
+      </div>
+    </section>
+
+    <!-- ======================================================
+         CURVE: white → beige
+         ====================================================== -->
+    <div class="curve-divider" aria-hidden="true">
+      <svg viewBox="0 0 390 72" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none" height="72">
+        <rect x="0" y="0" width="390" height="72" fill="#FAFAF8"/>
+        <path d="M0,0 C97.5,72 292.5,72 390,0 L390,72 L0,72 Z" fill="#E9DFD1"/>
+      </svg>
+    </div>
+
+    <!-- ======================================================
+         POSITIONS —募集要項
+         ====================================================== -->
+    <section class="recruit-positions" id="positions" aria-label="募集職種">
+      <p class="recruit-positions__eyebrow">Open Positions</p>
+
+      <div class="position-item">
+        <span class="position-item__label">大工・木工職人</span>
+        <span class="position-item__tag">経験者優遇</span>
+      </div>
+
+      <div class="position-item">
+        <span class="position-item__label">現場監督</span>
+        <span class="position-item__tag">経験者</span>
+      </div>
+
+      <div class="position-item">
+        <span class="position-item__label">設計補助・CADオペレーター</span>
+        <span class="position-item__tag">未経験可</span>
+      </div>
+
+      <div class="position-item">
+        <span class="position-item__label">施工管理見習い</span>
+        <span class="position-item__tag">未経験可</span>
+      </div>
+
+      <div class="position-item">
+        <span class="position-item__label">パート・アルバイト（現場補助）</span>
+        <span class="position-item__tag">週3日〜</span>
+      </div>
+
+      <!-- Conditions summary -->
+      <div style="margin-top: var(--sp-48); padding: var(--sp-32); background: rgba(42,36,29,.06); border-radius: 4px;">
+        <p style="font-size:10px;letter-spacing:.18em;text-transform:uppercase;color:var(--c-brown);margin-bottom:var(--sp-16);">Conditions</p>
+        <ul style="display:flex;flex-direction:column;gap:var(--sp-12);">
+          <li style="font-size:13px;line-height:1.8;color:var(--c-sand);">
+            <strong style="color:var(--c-ink);">勤務地</strong>　本社および管内各現場（要普通自動車免許）
+          </li>
+          <li style="font-size:13px;line-height:1.8;color:var(--c-sand);">
+            <strong style="color:var(--c-ink);">勤務時間</strong>　8:00〜17:30（現場により変動あり）
+          </li>
+          <li style="font-size:13px;line-height:1.8;color:var(--c-sand);">
+            <strong style="color:var(--c-ink);">休日</strong>　週休2日制（土日祝・現場に準じる）
+          </li>
+          <li style="font-size:13px;line-height:1.8;color:var(--c-sand);">
+            <strong style="color:var(--c-ink);">選考</strong>　書類選考 → 面談（1〜2回） → 採用
+          </li>
+        </ul>
+      </div>
+
+      <div style="padding-top:var(--sp-48); display:flex; justify-content:center;">
+        <a href="company.html" class="pill pill--brown">エントリー・お問い合わせ</a>
+      </div>
+    </section>
+
+    <!-- ======================================================
+         CURVE: beige → dark (footer)
+         ====================================================== -->
+    <div class="curve-divider" aria-hidden="true">
+      <svg viewBox="0 0 390 72" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none" height="72">
+        <rect x="0" y="0" width="390" height="72" fill="#E9DFD1"/>
+        <path d="M0,0 C97.5,72 292.5,72 390,0 L390,72 L0,72 Z" fill="#161616"/>
+      </svg>
+    </div>
+
+  </main>
+
+  <!-- ========================================================
+       FOOTER
+       ======================================================== -->
+  <footer class="site-footer" role="contentinfo">
+    <p class="site-footer__logo">REMEDORA BUILD</p>
+    <p class="site-footer__tagline">ARCHITECTURE &amp; CONSTRUCTION</p>
+    <nav class="site-footer__nav" aria-label="フッターナビゲーション">
+      <a href="index.html">TOP</a>
+      <a href="company.html">COMPANY</a>
+      <a href="works.html">WORKS</a>
+      <a href="recruit.html">RECRUIT</a>
+    </nav>
+    <div class="site-footer__rule" aria-hidden="true"></div>
+    <p class="site-footer__copy">&copy; 2025 REMEDORA BUILD. All rights reserved.</p>
+  </footer>
+
+  <script src="assets/js/main.js"></script>
+</body>
+</html>

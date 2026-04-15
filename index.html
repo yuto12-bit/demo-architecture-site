@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>REMEDORA BUILD — 建築設計施工</title>
+  <meta name="description" content="住宅・店舗・小規模改修の設計施工を行う建築会社。素材と向き合う手仕事で、長く使える建物をつくります。">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+  <!-- ========================================================
+       SITE HEADER (transparent on Hero)
+       ======================================================== -->
+  <header class="site-header site-header--transparent" role="banner">
+    <div class="site-header__inner">
+      <a href="index.html" class="site-header__logo" aria-label="REMEDORA BUILD トップ">
+        REMEDORA BUILD
+        <small>ARCHITECTURE &amp; CONSTRUCTION</small>
+      </a>
+      <div class="site-header__actions">
+        <a href="recruit.html" class="header-recruit-pill" aria-label="採用情報">RECRUIT</a>
+        <button class="menu-circle" aria-label="メニューを開く" aria-expanded="false" aria-controls="navOverlay">
+          <span class="menu-circle__bars" aria-hidden="true">
+            <span class="menu-circle__bar"></span>
+            <span class="menu-circle__bar"></span>
+            <span class="menu-circle__bar"></span>
+          </span>
+          <span class="menu-circle__label">MENU</span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- ========================================================
+       NAV OVERLAY
+       ======================================================== -->
+  <div class="nav-overlay" id="navOverlay" role="dialog" aria-modal="true" aria-label="ナビゲーション">
+    <button class="nav-overlay__close" aria-label="メニューを閉じる">&times;</button>
+    <div class="nav-overlay__inner">
+      <p class="nav-overlay__label">Navigation</p>
+      <nav class="nav-overlay__list" aria-label="メインナビゲーション">
+        <a href="index.html"   data-page="index.html">TOP</a>
+        <a href="company.html" data-page="company.html">COMPANY</a>
+        <a href="works.html"   data-page="works.html">WORKS</a>
+        <a href="recruit.html" data-page="recruit.html">RECRUIT</a>
+      </nav>
+    </div>
+  </div>
+
+  <main>
+
+    <!-- ======================================================
+         HERO
+         ====================================================== -->
+    <section class="hero" aria-label="ヒーローセクション">
+
+      <!-- Background photo (placeholder) -->
+      <div class="hero__bg" aria-hidden="true">
+        <img class="hero__bg-img" src="assets/images/hero.jpg" alt="建築現場のイメージ写真">
+        <div class="hero__overlay"></div>
+      </div>
+
+      <!-- Right side vertical copy -->
+      <div class="hero__vcopy" aria-hidden="true">
+        <span class="hero__vc-line">素材と向き合う</span>
+        <span class="hero__vc-line">手仕事の建築</span>
+        <span class="hero__vc-line">暮らしを刻む</span>
+      </div>
+
+      <!-- Left-bottom main content -->
+      <div class="hero__content">
+        <p class="hero__eyebrow">Architecture &amp; Construction / 地域密着</p>
+        <h1 class="hero__title">REMEDORA<br>BUILD</h1>
+        <p class="hero__lead">住宅・店舗・小規模改修の設計施工を行う建築会社。<br>素材と対話しながら、長く使える建物をつくります。</p>
+        <a href="works.html" class="hero__cta pill">施工事例を見る</a>
+      </div>
+
+      <!-- Scroll indicator -->
+      <div class="hero__scroll" aria-hidden="true">
+        <span class="hero__scroll-label">SCROLL</span>
+        <span class="hero__scroll-line"></span>
+      </div>
+
+    </section>
+
+    <!-- ======================================================
+         CURVE: dark → cream
+         ====================================================== -->
+    <div class="curve-divider" aria-hidden="true">
+      <svg viewBox="0 0 390 72" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none" height="72">
+        <rect x="0" y="0" width="390" height="72" fill="#161616"/>
+        <path d="M0,72 C97.5,0 292.5,0 390,72 L390,72 L0,72 Z" fill="#F3EFE8"/>
+      </svg>
+    </div>
+
+    <!-- ======================================================
+         INTRO TEASER — Company
+         ====================================================== -->
+    <section class="intro-teaser" aria-label="会社紹介">
+      <p class="intro-teaser__eyebrow">About / Company</p>
+      <h2 class="intro-teaser__title">
+        誠実な手仕事で、<br>
+        地域の暮らしを<br>
+        支える。
+      </h2>
+      <p class="intro-teaser__text">
+        私たちレメドラ建設は、地域に根ざした小さな建築会社です。<br>
+        大きな案件よりも、依頼主との丁寧な対話を重ねることを選んできました。<br>
+        素材の声を聞き、職人の手と知恵で一棟ずつ仕上げます。
+      </p>
+      <div class="intro-teaser__row">
+        <a href="company.html" class="circle-cta" aria-label="会社情報を見る">→</a>
+        <span style="font-size:12px; letter-spacing:.1em; color:var(--c-sand);">COMPANY</span>
+      </div>
+    </section>
+
+    <!-- ======================================================
+         CURVE: cream → dark
+         ====================================================== -->
+    <div class="curve-divider" aria-hidden="true">
+      <svg viewBox="0 0 390 72" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none" height="72">
+        <rect x="0" y="0" width="390" height="72" fill="#F3EFE8"/>
+        <path d="M0,0 C97.5,72 292.5,72 390,0 L390,72 L0,72 Z" fill="#161616"/>
+      </svg>
+    </div>
+
+    <!-- ======================================================
+         WORKS PREVIEW — dark
+         ====================================================== -->
+    <section class="works-preview" aria-label="施工実績プレビュー">
+      <div class="section-hd">
+        <p class="section-hd__eyebrow">Works</p>
+        <h2 class="section-hd__title">Projects</h2>
+        <p class="section-hd__lead" style="color:rgba(244,240,234,.55);">
+          住宅から店舗・改修まで、多様な現場に携わってきました。
+        </p>
+      </div>
+
+      <!-- Card 1 -->
+      <article class="project-card">
+        <figure class="project-card__fig">
+  <img src="assets/images/works-01.jpg" alt="T邸 木造住宅 施工写真">
+</figure>
+        <p class="project-card__meta">木造住宅 / 新築</p>
+        <h3 class="project-card__title">T邸 — 木の温もりを纏う家</h3>
+        <p class="project-card__text">
+          地元産の杉材を主軸に、開口部と光の入り方を丁寧に設計した2階建て住宅。
+          家族それぞれの時間と、集う場をつなぐ間取りを実現しました。
+        </p>
+      </article>
+
+      <!-- Card 2 -->
+      <article class="project-card">
+        <figure class="project-card__fig">
+          <img src="assets/images/works-02.jpg" alt="カフェ改修 施工写真">
+        </figure>
+        <p class="project-card__meta">店舗 / 改修</p>
+        <h3 class="project-card__title">カフェ S — 古材と鉄の対話</h3>
+        <p class="project-card__text">
+          築35年の町屋を、地域のコーヒースタンドへと再生。
+          既存の梁を活かしながら、現代的なディテールで空間に奥行きをつくりました。
+        </p>
+      </article>
+
+      <div class="works-preview__cta">
+        <a href="works.html" class="pill pill--light">すべての施工事例を見る</a>
+      </div>
+    </section>
+
+    <!-- ======================================================
+         CURVE: dark → mustard
+         ====================================================== -->
+    <div class="curve-divider" aria-hidden="true">
+      <svg viewBox="0 0 390 72" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none" height="72">
+        <rect x="0" y="0" width="390" height="72" fill="#161616"/>
+        <path d="M0,0 C97.5,72 292.5,72 390,0 L390,72 L0,72 Z" fill="#E3C11B"/>
+      </svg>
+    </div>
+
+    <!-- ======================================================
+         RECRUIT TEASER — mustard
+         ====================================================== -->
+    <section class="recruit-teaser" aria-label="採用情報">
+      <p class="recruit-teaser__eyebrow">Recruit</p>
+      <h2 class="recruit-teaser__title">
+        現場を共に<br>
+        つくる人を、<br>
+        探しています。
+      </h2>
+      <p class="recruit-teaser__text">
+        レメドラ建設は今も小さなチームです。だからこそ、一人ひとりの技術と意志が建物に直結します。
+        経験者・未経験者ともに、丁寧な対話から始めます。
+      </p>
+      <a href="recruit.html" class="pill pill--mustard-dark">採用情報を見る</a>
+    </section>
+
+    <!-- ======================================================
+         CURVE: mustard → dark (footer)
+         ====================================================== -->
+    <div class="curve-divider" aria-hidden="true">
+      <svg viewBox="0 0 390 72" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none" height="72">
+        <rect x="0" y="0" width="390" height="72" fill="#E3C11B"/>
+        <path d="M0,0 C97.5,72 292.5,72 390,0 L390,72 L0,72 Z" fill="#161616"/>
+      </svg>
+    </div>
+
+  </main>
+
+  <!-- ========================================================
+       FOOTER
+       ======================================================== -->
+  <footer class="site-footer" role="contentinfo">
+    <p class="site-footer__logo">REMEDORA BUILD</p>
+    <p class="site-footer__tagline">ARCHITECTURE &amp; CONSTRUCTION</p>
+    <nav class="site-footer__nav" aria-label="フッターナビゲーション">
+      <a href="index.html">TOP</a>
+      <a href="company.html">COMPANY</a>
+      <a href="works.html">WORKS</a>
+      <a href="recruit.html">RECRUIT</a>
+    </nav>
+    <div class="site-footer__rule" aria-hidden="true"></div>
+    <p class="site-footer__copy">&copy; 2025 REMEDORA BUILD. All rights reserved.</p>
+  </footer>
+
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
