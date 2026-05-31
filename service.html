@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SERVICE — REMEDORA BUILD</title>
+  <meta name="description" content="レメドラ建設のサービス内容。住宅新築・リノベーション・店舗内装改修・小規模修繕・事務所倉庫の新築改修に対応。料金目安・利用の流れもご確認いただけます。">
+  <meta property="og:title" content="SERVICE — REMEDORA BUILD">
+  <meta property="og:description" content="レメドラ建設のサービス内容。住宅・店舗・改修まで幅広く対応。料金目安・利用の流れはこちら。">
+  <meta property="og:type" content="website">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+  <header class="site-header site-header--solid" role="banner">
+    <div class="site-header__inner">
+      <a href="index.html" class="site-header__logo" aria-label="REMEDORA BUILD トップ">
+        REMEDORA BUILD
+        <small>ARCHITECTURE &amp; CONSTRUCTION</small>
+      </a>
+      <div class="site-header__actions">
+        <button class="menu-circle" aria-label="メニューを開く" aria-expanded="false" aria-controls="navOverlay">
+          <span class="menu-circle__bars" aria-hidden="true">
+            <span class="menu-circle__bar"></span>
+            <span class="menu-circle__bar"></span>
+            <span class="menu-circle__bar"></span>
+          </span>
+          <span class="menu-circle__label">MENU</span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <div class="nav-overlay" id="navOverlay" role="dialog" aria-modal="true" aria-label="ナビゲーション">
+    <button class="nav-overlay__close" aria-label="メニューを閉じる">&times;</button>
+    <div class="nav-overlay__inner">
+      <p class="nav-overlay__label">Navigation</p>
+      <nav class="nav-overlay__list" aria-label="メインナビゲーション">
+        <a href="index.html"   data-page="index.html">TOP</a>
+        <a href="service.html" data-page="service.html">SERVICE</a>
+        <a href="company.html" data-page="company.html">COMPANY</a>
+        <a href="recruit.html" data-page="recruit.html">RECRUIT</a>
+        <a href="contact.html" data-page="contact.html">CONTACT</a>
+      </nav>
+    </div>
+  </div>
+
+  <main class="service-page">
+
+    <!-- 1. SERVICE HERO (dark) -->
+    <div class="section-hd" role="banner" aria-label="サービス">
+      <p class="section-hd__eyebrow">サービス内容</p>
+      <h1 class="section-hd__title">Services</h1>
+      <p class="section-hd__lead">
+        住宅・店舗・小規模改修まで、<br>
+        設計から施工まで一貫して対応します。
+      </p>
+    </div>
+
+    <!-- 2. SERVICE OVERVIEW (dark, そのまま続く) -->
+    <div style="padding: var(--sp-48) var(--edge) var(--sp-64);">
+      <p style="font-size:14px;line-height:1.95;color:rgba(244,240,234,.65);margin-bottom:var(--sp-32);">
+        レメドラ建設は、住宅・店舗・事務所など多様な建物の設計から施工まで一貫して手がけています。まずは現地確認とヒアリングからスタートし、内容を把握したうえで無理のないプランをご提案します。
+      </p>
+      <ul style="display:flex;flex-direction:column;gap:0;">
+        <li style="display:flex;align-items:flex-start;gap:var(--sp-24);padding:var(--sp-16) 0;border-top:1px solid rgba(244,240,234,.1);">
+          <span style="font-family:var(--font-serif);font-size:11px;letter-spacing:.16em;color:rgba(244,240,234,.4);flex-shrink:0;width:2em;padding-top:3px;">01</span>
+          <span style="font-size:14px;line-height:1.75;color:rgba(244,240,234,.75);">設計から施工まで自社一貫で対応。発注ロスがなく、依頼主の意図をそのまま現場へ届けられます。</span>
+        </li>
+        <li style="display:flex;align-items:flex-start;gap:var(--sp-24);padding:var(--sp-16) 0;border-top:1px solid rgba(244,240,234,.1);">
+          <span style="font-family:var(--font-serif);font-size:11px;letter-spacing:.16em;color:rgba(244,240,234,.4);flex-shrink:0;width:2em;padding-top:3px;">02</span>
+          <span style="font-size:14px;line-height:1.75;color:rgba(244,240,234,.75);">地元産材・職人手仕事へのこだわり。流行を追わず、10年後も愛着を持って使える空間をつくります。</span>
+        </li>
+        <li style="display:flex;align-items:flex-start;gap:var(--sp-24);padding:var(--sp-16) 0;border-top:1px solid rgba(244,240,234,.1);border-bottom:1px solid rgba(244,240,234,.1);">
+          <span style="font-family:var(--font-serif);font-size:11px;letter-spacing:.16em;color:rgba(244,240,234,.4);flex-shrink:0;width:2em;padding-top:3px;">03</span>
+          <span style="font-size:14px;line-height:1.75;color:rgba(244,240,234,.75);">現地確認後に丁寧に見積もり。内容・規模・素材を確認してからご提案するため、曖昧な概算はしません。</span>
+        </li>
+      </ul>
+    </div>
+
+    <!-- 3. SERVICE DETAIL — cards (dark, reusing project-card) -->
+    <article class="project-card" aria-label="住宅の新築設計施工">
+      <figure class="project-card__fig">
+        <img src="assets/images/works-01.jpg" alt="住宅新築 施工イメージ">
+      </figure>
+      <p class="project-card__meta">住宅の新築設計施工 / 木造・在来工法</p>
+      <h2 class="project-card__title">新築 — 暮らしに合わせた設計から</h2>
+      <p class="project-card__text">土地の形状・日当たり・家族の暮らし方をヒアリングし、設計から施工まで一貫して担当します。地元産材の活用や職人の手仕事を得意としています。木造2階建てを中心に、平屋・混構造にも対応可能です。</p>
+    </article>
+
+    <article class="project-card" aria-label="住宅リノベーション">
+      <figure class="project-card__fig">
+        <img src="assets/images/works-05.jpg" alt="住宅リノベーション 施工イメージ">
+      </figure>
+      <p class="project-card__meta">住宅リノベーション / 改修・断熱・耐震</p>
+      <h2 class="project-card__title">リノベ — 既存の良さを残して更新する</h2>
+      <p class="project-card__text">築古住宅の間取り変更・断熱改修・耐震補強から、水回り・内装のリフレッシュまで幅広く対応します。既存の良さを活かしながら、現代の暮らしに合わせた空間に更新します。</p>
+    </article>
+
+    <article class="project-card" aria-label="店舗内装・改修">
+      <figure class="project-card__fig">
+        <img src="assets/images/works-02.jpg" alt="店舗内装改修 施工イメージ">
+      </figure>
+      <p class="project-card__meta">店舗内装・改修 / 飲食・小売・サービス業種</p>
+      <h2 class="project-card__title">店舗 — 業種に合わせた空間づくり</h2>
+      <p class="project-card__text">飲食店・小売店・サービス業種など、業種のコンセプトに合わせた内装設計・施工を行います。既存スケルトン活用から新規造作まで対応。営業しながらの段階施工のご相談も承ります。</p>
+    </article>
+
+    <article class="project-card" aria-label="小規模修繕・木工造作">
+      <figure class="project-card__fig">
+        <img src="assets/images/works-03.jpg" alt="修繕・木工造作 施工イメージ">
+      </figure>
+      <p class="project-card__meta">小規模修繕・木工造作 / 雨漏り・建具・造り付け家具</p>
+      <h2 class="project-card__title">修繕 — 小さな不具合も対応します</h2>
+      <p class="project-card__text">雨漏り・床の軋み・建具の不具合・外壁の傷みなど、小規模な修繕に対応します。造り付け棚・カウンター・建具などのオーダー木工造作も承ります。</p>
+    </article>
+
+    <article class="project-card" aria-label="事務所・倉庫の新築・改修">
+      <figure class="project-card__fig">
+        <img src="assets/images/works-04.jpg" alt="事務所・倉庫 施工イメージ">
+      </figure>
+      <p class="project-card__meta">事務所・倉庫 / 新築・改修・小規模公共</p>
+      <h2 class="project-card__title">事務所・倉庫 — 機能性と使いやすさを両立</h2>
+      <p class="project-card__text">小規模事業者向けの事務所・倉庫・作業場の新築・改修に対応します。動線・採光・搬入口などの実用性を重視した設計を行います。延床50〜300㎡程度を得意としています。</p>
+    </article>
+
+    <!-- 4. PRICE / MENU (dark, そのまま続く) -->
+    <section class="price-section" aria-label="料金目安">
+      <p class="price-section__eyebrow">Price / Menu</p>
+      <h2 class="price-section__title">料金目安</h2>
+      <p style="font-size:13px;line-height:1.9;color:rgba(244,240,234,.5);margin-bottom:var(--sp-40);">
+        以下は参考目安です。実際の費用は現地確認・内容確認後に個別見積もりでご案内します。初回相談・現地確認は無料です。建物の規模・素材・工期により大きく変動するため、まずご連絡ください。
+      </p>
+      <table class="price-table">
+        <tbody>
+          <tr>
+            <th scope="row">住宅新築（木造）</th>
+            <td>内容により個別見積もり</td>
+          </tr>
+          <tr>
+            <th scope="row">住宅リノベーション</th>
+            <td>現地確認後に見積もり</td>
+          </tr>
+          <tr>
+            <th scope="row">店舗内装・改修</th>
+            <td>内容確認後に見積もり</td>
+          </tr>
+          <tr>
+            <th scope="row">小規模修繕</th>
+            <td>内容確認後にご案内</td>
+          </tr>
+          <tr>
+            <th scope="row">事務所・倉庫 新築</th>
+            <td>個別見積もり</td>
+          </tr>
+          <tr>
+            <th scope="row">初回相談・現地確認</th>
+            <td>無料</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <!-- ◎ アーチ：dark → cream -->
+    <div class="curve-divider" style="background:var(--c-dark);" aria-hidden="true">
+      <svg class="curve-divider__svg" viewBox="0 0 1440 72" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg"><path d="M0,48 Q720,-32 1440,48 L1440,72 L0,72 Z" fill="var(--c-cream)"/></svg>
+    </div>
+
+    <!-- 5. USE SCENE (cream) -->
+    <section class="use-scene" aria-label="こんな時にご相談ください">
+      <p class="use-scene__eyebrow">Use Scene</p>
+      <h2 class="use-scene__title">
+        こんな時に<br>
+        ご相談ください。
+      </h2>
+      <div class="scene-list">
+        <div class="scene-item">
+          <h3 class="scene-item__title">家を建てたい・建て替えたい</h3>
+          <p class="scene-item__text">「どんな家にしたいか」からご相談ください。敷地・予算・希望のヒアリングから始めます。設計士が初回から同席します。</p>
+        </div>
+        <div class="scene-item">
+          <h3 class="scene-item__title">古い家をリフォーム・リノベしたい</h3>
+          <p class="scene-item__text">築古住宅の断熱・耐震・間取り変更・水回り更新まで幅広く対応します。「残したい部分」もお気軽にご相談ください。</p>
+        </div>
+        <div class="scene-item">
+          <h3 class="scene-item__title">店舗を開きたい・改装したい</h3>
+          <p class="scene-item__text">業種・コンセプトに合わせた内装設計から施工まで一貫して対応します。スケルトン状態からでも、既存内装の一部改修でも対応可能です。</p>
+        </div>
+        <div class="scene-item">
+          <h3 class="scene-item__title">雨漏り・建具不具合・小修繕がある</h3>
+          <p class="scene-item__text">大掛かりな工事でなくても対応します。まず状況をお聞かせください。現地確認後に適切な方法をご案内します。</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- — 直線：cream → beige -->
+    <div class="line-divider" aria-hidden="true"></div>
+
+    <!-- 6. FLOW (beige) -->
+    <section class="flow-section" aria-label="ご依頼の流れ">
+      <p class="flow-section__eyebrow">Flow</p>
+      <h2 class="flow-section__title">ご依頼の流れ</h2>
+      <div class="flow-steps">
+        <div class="flow-step">
+          <span class="flow-step__num">01</span>
+          <div>
+            <p class="flow-step__title">お問い合わせ・初回相談</p>
+            <p class="flow-step__text">電話・メール・フォームからお気軽にご連絡ください。ご要望の概要をお聞きします。初回相談は無料です。</p>
+          </div>
+        </div>
+        <div class="flow-step">
+          <span class="flow-step__num">02</span>
+          <div>
+            <p class="flow-step__title">現地確認・詳細ヒアリング</p>
+            <p class="flow-step__text">実際の建物・敷地を訪問し、ご要望を丁寧にヒアリングします。ここで費用の目安をご案内します。</p>
+          </div>
+        </div>
+        <div class="flow-step">
+          <span class="flow-step__num">03</span>
+          <div>
+            <p class="flow-step__title">設計プラン・お見積もり提出</p>
+            <p class="flow-step__text">内容をもとに設計プランと見積書をご提案します。納得いただけるまで丁寧に調整します。変更・修正も柔軟に対応します。</p>
+          </div>
+        </div>
+        <div class="flow-step">
+          <span class="flow-step__num">04</span>
+          <div>
+            <p class="flow-step__title">契約・着工</p>
+            <p class="flow-step__text">内容に合意いただけたら契約・着工です。着工前に工程表をご説明します。現場の進捗はご連絡しながら進めます。</p>
+          </div>
+        </div>
+        <div class="flow-step">
+          <span class="flow-step__num">05</span>
+          <div>
+            <p class="flow-step__title">完成・引き渡し・アフターフォロー</p>
+            <p class="flow-step__text">完成後は丁寧に引き渡しを行います。引き渡し後のメンテナンス・修繕ご相談にも対応します。</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- — 直線：beige → white -->
+    <div class="line-divider" aria-hidden="true"></div>
+
+    <!-- 7. NOTES (white) -->
+    <section class="notes-section" aria-label="ご確認事項">
+      <p class="notes-section__eyebrow">Notes</p>
+      <h2 class="notes-section__title">ご確認事項</h2>
+      <div class="notes-list">
+        <p class="notes-list__item">費用はすべて現地確認・内容確認後に個別見積もりとなります。概算費用のみのご案内はお断りする場合があります。</p>
+        <p class="notes-list__item">対応エリア外の物件はご相談のうえ判断させていただきます。遠方の現場は交通費が別途かかる場合があります。</p>
+        <p class="notes-list__item">建築確認申請が必要な工事は別途申請費用がかかります。法規制のご確認はお問い合わせください。</p>
+        <p class="notes-list__item">解体・基礎工事・電気・設備工事は協力業者との連携で対応します。ワンストップでご依頼いただけます。</p>
+        <p class="notes-list__item">大規模マンション・高層建築・公共工事は対応範囲外です。</p>
+      </div>
+    </section>
+
+    <!-- ◎ アーチ：white → mustard -->
+    <div class="curve-divider" style="background:var(--c-mustard);" aria-hidden="true">
+      <svg class="curve-divider__svg" viewBox="0 0 1440 72" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg"><path d="M0,24 Q720,104 1440,24 L1440,0 L0,0 Z" fill="var(--c-white)"/></svg>
+    </div>
+
+    <!-- 8. RELATED LINK — RECRUIT (mustard) -->
+    <section class="recruit-teaser" aria-label="採用情報へ">
+      <p class="recruit-teaser__eyebrow">Recruit</p>
+      <h2 class="recruit-teaser__title">
+        現場をつくる<br>
+        仲間を、<br>
+        探しています。
+      </h2>
+      <p class="recruit-teaser__text">
+        職人・設計者・現場監督が一体となって現場を動かしています。社員12名の小さなチームだからこそ、あなたの技術と意志が直接建物に宿ります。
+      </p>
+      <p class="recruit-teaser__text">
+        大工・木工職人・現場監督・設計補助など募集中。経験者優遇ですが、未経験者も歓迎します。まずはお気軽にご連絡ください。
+      </p>
+      <div style="display:flex;flex-direction:column;gap:var(--sp-12);margin-bottom:var(--sp-40);">
+        <div class="position-item" style="border-top-color:rgba(42,36,29,.15);border-bottom:none;">
+          <span class="position-item__label" style="font-size:16px;">大工・木工職人</span>
+          <span class="position-item__tag">経験者優遇</span>
+        </div>
+        <div class="position-item" style="border-top-color:rgba(42,36,29,.15);border-bottom:none;">
+          <span class="position-item__label" style="font-size:16px;">現場監督</span>
+          <span class="position-item__tag">経験者</span>
+        </div>
+        <div class="position-item" style="border-top-color:rgba(42,36,29,.15);">
+          <span class="position-item__label" style="font-size:16px;">施工管理見習い</span>
+          <span class="position-item__tag">未経験可</span>
+        </div>
+      </div>
+      <a href="recruit.html" class="pill pill--mustard-dark">採用情報を見る</a>
+    </section>
+
+    <!-- — 直線：mustard → cream -->
+    <div class="line-divider" aria-hidden="true"></div>
+
+    <!-- 9. CTA (cream) -->
+    <section class="cta-band" aria-label="お問い合わせ">
+      <p class="cta-band__eyebrow">Contact</p>
+      <h2 class="cta-band__title">まずは、ご相談ください。</h2>
+      <p class="cta-band__text">
+        初回相談・現地確認は無料です。<br>
+        どんな小さなことでもお聞きします。
+      </p>
+      <a href="contact.html" class="pill pill--dark">相談・問い合わせをする</a>
+    </section>
+
+    <!-- ◎ アーチ：cream → dark -->
+    <div class="curve-divider" style="background:var(--c-dark);" aria-hidden="true">
+      <svg class="curve-divider__svg" viewBox="0 0 1440 72" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg"><path d="M0,24 Q720,104 1440,24 L1440,0 L0,0 Z" fill="var(--c-cream)"/></svg>
+    </div>
+
+  </main>
+
+  <footer class="site-footer" role="contentinfo">
+    <p class="site-footer__logo">REMEDORA BUILD</p>
+    <p class="site-footer__tagline">ARCHITECTURE &amp; CONSTRUCTION</p>
+    <nav class="site-footer__nav" aria-label="フッターナビゲーション">
+      <a href="index.html">TOP</a>
+      <a href="service.html">SERVICE</a>
+      <a href="company.html">COMPANY</a>
+      <a href="recruit.html">RECRUIT</a>
+      <a href="contact.html">CONTACT</a>
+      <a href="privacy.html">PRIVACY</a>
+    </nav>
+    <div class="site-footer__rule" aria-hidden="true"></div>
+    <p class="site-footer__copy">&copy; 2025 REMEDORA BUILD. All rights reserved.</p>
+  </footer>
+
+  <script src="assets/js/main.js"></script>
+</body>
+</html>

@@ -4,14 +4,14 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>COMPANY — REMEDORA BUILD</title>
-  <meta name="description" content="レメドラ建設の想いと価値観。地域に根ざした手仕事の建築を通じて、長く使える建物を丁寧につくります。">
+  <meta name="description" content="レメドラ建設の想いと価値観。2008年創業。兵庫県明石市を拠点に、住宅・店舗・小規模改修の設計施工を行っています。代表・会社概要・対応エリアはこちら。">
+  <meta property="og:title" content="COMPANY — REMEDORA BUILD">
+  <meta property="og:description" content="レメドラ建設の想いと価値観。地域に根ざした手仕事の建築を通じて、長く使える建物を丁寧につくります。">
+  <meta property="og:type" content="website">
   <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
 
-  <!-- ========================================================
-       SITE HEADER (solid on inner page)
-       ======================================================== -->
   <header class="site-header site-header--solid" role="banner">
     <div class="site-header__inner">
       <a href="index.html" class="site-header__logo" aria-label="REMEDORA BUILD トップ">
@@ -19,7 +19,6 @@
         <small>ARCHITECTURE &amp; CONSTRUCTION</small>
       </a>
       <div class="site-header__actions">
-        <a href="recruit.html" class="header-recruit-pill" aria-label="採用情報">RECRUIT</a>
         <button class="menu-circle" aria-label="メニューを開く" aria-expanded="false" aria-controls="navOverlay">
           <span class="menu-circle__bars" aria-hidden="true">
             <span class="menu-circle__bar"></span>
@@ -32,50 +31,43 @@
     </div>
   </header>
 
-  <!-- ========================================================
-       NAV OVERLAY
-       ======================================================== -->
   <div class="nav-overlay" id="navOverlay" role="dialog" aria-modal="true" aria-label="ナビゲーション">
     <button class="nav-overlay__close" aria-label="メニューを閉じる">&times;</button>
     <div class="nav-overlay__inner">
       <p class="nav-overlay__label">Navigation</p>
       <nav class="nav-overlay__list" aria-label="メインナビゲーション">
         <a href="index.html"   data-page="index.html">TOP</a>
+        <a href="service.html" data-page="service.html">SERVICE</a>
         <a href="company.html" data-page="company.html">COMPANY</a>
-        <a href="works.html"   data-page="works.html">WORKS</a>
         <a href="recruit.html" data-page="recruit.html">RECRUIT</a>
+        <a href="contact.html" data-page="contact.html">CONTACT</a>
       </nav>
     </div>
   </div>
 
   <main class="company-page">
 
-    <!-- ======================================================
-         HERO PHOTO — full-width warm image
-         ====================================================== -->
-    <div class="company-photo" role="img" aria-label="建築現場・施設外観のイメージ写真">
+    <!-- 1. COMPANY HERO -->
+    <div class="company-photo" role="img" aria-label="建築施設外観のイメージ写真">
       <img src="assets/images/company.jpg" alt="建築施設外観">
       <div class="company-photo__overlay" aria-hidden="true"></div>
     </div>
 
-    <!-- ======================================================
-         WHITE PANEL — vertical heading + circle CTA
-         ====================================================== -->
+    <!-- 2. MESSAGE -->
     <section class="company-panel" aria-label="会社の想い">
       <p class="company-panel__eyebrow">Our Philosophy</p>
-
       <div class="company-panel__row">
-        <!-- Vertical Japanese heading -->
         <h1 class="company-vert-title" lang="ja">
           誠実な<br>手仕事で<br>刻む。
         </h1>
       </div>
     </section>
 
-    <!-- ======================================================
-         COMPANY BODY — philosophy text
-         ====================================================== -->
-    <section class="company-body" aria-label="会社概要・理念">
+    <!-- — 直線：white → cream -->
+    <div class="line-divider" aria-hidden="true"></div>
+
+    <!-- 3. STORY / BACKGROUND (cream) -->
+    <section class="company-body" aria-label="創業背景・こだわり">
       <h2 class="company-body__title">
         対話から始まる、<br>
         丁寧な建築。
@@ -87,83 +79,204 @@
         大手ゼネコンにできる仕事より、私たちにしかできない仕事を選んできました。それは、現場監督と職人が直接言葉を交わし、素材の特性を確かめながら進める手仕事の建築です。
       </p>
       <p class="company-body__text">
+        私たちが大切にしているのは「完成後の関係」です。建物は完成してからが本番。引き渡し後も気軽に相談できる存在でいることが、地域の工務店としての責任だと考えています。
+      </p>
+      <p class="company-body__text">
         完成したとき、依頼主が「自分の建物だ」と感じられること。それが、私たちの目指す仕事の姿です。
       </p>
-
-      <!-- Breadcrumb back to TOP -->
-      <a href="index.html" style="display:inline-flex;align-items:center;gap:8px;font-size:12px;letter-spacing:.1em;color:var(--c-sand);margin-top:var(--sp-16);">
-        ← TOP へ戻る
-      </a>
     </section>
 
-    <!-- ======================================================
-         CURVE: cream → beige
-         ====================================================== -->
-    <div class="curve-divider" aria-hidden="true">
-      <svg viewBox="0 0 390 72" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none" height="72">
-        <rect x="0" y="0" width="390" height="72" fill="#F3EFE8"/>
-        <path d="M0,0 C97.5,72 292.5,72 390,0 L390,72 L0,72 Z" fill="#E9DFD1"/>
-      </svg>
-    </div>
+    <!-- — 直線：cream → beige -->
+    <div class="line-divider" aria-hidden="true"></div>
 
-    <!-- ======================================================
-         VALUES SECTION
-         ====================================================== -->
+    <!-- VALUES -->
     <section class="company-values" aria-label="私たちの価値観">
       <p class="company-values__eyebrow">Our Values</p>
-
       <div class="value-item">
         <p class="value-item__num">01</p>
         <h3 class="value-item__title">素材への敬意</h3>
-        <p class="value-item__text">
-          木、鉄、石、土——それぞれの素材には固有の性質と美しさがあります。私たちはその声を聞き、素材が最も輝く場所と使い方を選びます。
-        </p>
+        <p class="value-item__text">木、鉄、石、土——それぞれの素材には固有の性質と美しさがあります。私たちはその声を聞き、素材が最も輝く場所と使い方を選びます。素材選びは完成後20年の耐久性にも直結します。</p>
       </div>
-
       <div class="value-item">
         <p class="value-item__num">02</p>
         <h3 class="value-item__title">丁寧な対話</h3>
-        <p class="value-item__text">
-          設計は、会話から生まれます。依頼主の生活リズム、好みの光、将来の変化——図面に落とす前に、何度も言葉を重ねます。
-        </p>
+        <p class="value-item__text">設計は、会話から生まれます。依頼主の生活リズム、好みの光、将来の変化——図面に落とす前に、何度も言葉を重ねます。「言いにくいこと」を言いやすい関係を、現場でも大切にしています。</p>
       </div>
-
       <div class="value-item">
         <p class="value-item__num">03</p>
         <h3 class="value-item__title">長く使える建物</h3>
-        <p class="value-item__text">
-          流行を追わず、10年・20年後も愛着を持って使い続けられる空間をつくることが、私たちの責任です。
-        </p>
-      </div>
-
-      <div style="padding-top:var(--sp-48); display:flex; justify-content:center;">
-        <a href="works.html" class="pill pill--brown">施工事例を見る</a>
+        <p class="value-item__text">流行を追わず、10年・20年後も愛着を持って使い続けられる空間をつくることが、私たちの責任です。メンテナンスしやすい設計にすることも、長く使うための重要な仕事のひとつです。</p>
       </div>
     </section>
 
-    <!-- ======================================================
-         CURVE: beige → dark (footer)
-         ====================================================== -->
-    <div class="curve-divider" aria-hidden="true">
-      <svg viewBox="0 0 390 72" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none" height="72">
-        <rect x="0" y="0" width="390" height="72" fill="#E9DFD1"/>
-        <path d="M0,0 C97.5,72 292.5,72 390,0 L390,72 L0,72 Z" fill="#161616"/>
-      </svg>
+    <!-- — 直線：beige → white -->
+    <div class="line-divider" aria-hidden="true"></div>
+
+    <!-- 4. PROFILE (white) -->
+    <section class="company-profile" aria-label="代表プロフィール">
+      <p class="company-profile__eyebrow">Profile</p>
+      <div class="profile-card">
+        <div class="profile-card__img">
+          <img src="assets/images/company.jpg" alt="代表 田村 誠一 プロフィール写真">
+        </div>
+        <div>
+          <p class="profile-card__role">代表・設計施工責任者</p>
+          <h2 class="profile-card__name">田村 誠一</h2>
+          <p class="profile-card__text">
+            1972年生まれ、兵庫県明石市出身。工業高校卒業後、地元工務店に大工として入社。約15年の現場経験を経て、2008年にレメドラ建設を創業。住宅・店舗・改修まで幅広く手がけながら、依頼主との対話を最も大切にする施工スタイルを貫く。
+          </p>
+          <p class="profile-card__text" style="margin-top:var(--sp-16);">
+            「材料の声を聞いて、その場所に合った使い方をすること。それが私の仕事の始まりです。」
+          </p>
+          <div class="profile-card__certs">
+            <span class="profile-card__cert">一級建築施工管理技士</span>
+            <span class="profile-card__cert">二級建築士</span>
+            <span class="profile-card__cert">木造建築士</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- — 直線：white → beige -->
+    <div class="line-divider" aria-hidden="true"></div>
+
+    <!-- 5. COMPANY INFO DETAIL (beige) -->
+    <section class="company-info-detail" aria-label="会社概要">
+      <p class="company-info-detail__eyebrow">Company Info</p>
+      <table class="info-table">
+        <tbody>
+          <tr>
+            <th scope="row">屋号</th>
+            <td>REMEDORA BUILD（レメドラ建設）</td>
+          </tr>
+          <tr>
+            <th scope="row">事業内容</th>
+            <td>住宅・店舗・小規模改修の設計施工<br>新築・リノベーション・木工造作・店舗内装</td>
+          </tr>
+          <tr>
+            <th scope="row">創業</th>
+            <td>2008年</td>
+          </tr>
+          <tr>
+            <th scope="row">代表</th>
+            <td>田村 誠一</td>
+          </tr>
+          <tr>
+            <th scope="row">社員数</th>
+            <td>12名</td>
+          </tr>
+          <tr>
+            <th scope="row">所在地</th>
+            <td>兵庫県明石市周辺<br><span style="font-size:12px;opacity:.7;">（詳細住所はお問い合わせ後にご案内します）</span></td>
+          </tr>
+          <tr>
+            <th scope="row">営業時間</th>
+            <td>9:00〜18:00</td>
+          </tr>
+          <tr>
+            <th scope="row">定休日</th>
+            <td>日曜・祝日</td>
+          </tr>
+          <tr>
+            <th scope="row">資格</th>
+            <td>一級建築施工管理技士、二級建築士、木造建築士</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <!-- — 直線：beige → cream -->
+    <div class="line-divider" aria-hidden="true"></div>
+
+    <!-- 6. AREA / ACCESS DETAIL (cream) -->
+    <section class="company-access" aria-label="対応エリア・アクセス">
+      <p class="company-access__eyebrow">Area / Access</p>
+      <h2 class="company-access__title">対応エリア・アクセス</h2>
+      <p style="font-size:14px;line-height:1.9;color:var(--c-sand);margin-bottom:var(--sp-16);">
+        主に以下のエリアを中心に対応しています。エリア外のご相談も内容によって対応可能ですので、まずはお問い合わせください。
+      </p>
+      <div class="area-tags">
+        <span class="area-tag">明石市</span>
+        <span class="area-tag">神戸市西区</span>
+        <span class="area-tag">加古川市</span>
+        <span class="area-tag">播磨町</span>
+        <span class="area-tag">稲美町</span>
+        <span class="area-tag">神戸市垂水区</span>
+      </div>
+      <table class="info-table" style="margin-bottom:var(--sp-8);">
+        <tbody>
+          <tr>
+            <th scope="row">所在地</th>
+            <td>兵庫県明石市周辺</td>
+          </tr>
+          <tr>
+            <th scope="row">最寄り駅</th>
+            <td>JR明石駅・山陽明石駅より徒歩圏内</td>
+          </tr>
+        </tbody>
+      </table>
+      <div class="map-placeholder" role="img" aria-label="地図（準備中）">
+        <div>
+          <span class="map-placeholder__label">Google Map</span>
+          <span class="map-placeholder__address">兵庫県明石市周辺<br>詳細住所はお問い合わせ後にご案内します</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- ◎ アーチ：cream → dark -->
+    <div class="curve-divider" style="background:var(--c-dark);" aria-hidden="true">
+      <svg class="curve-divider__svg" viewBox="0 0 1440 72" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg"><path d="M0,24 Q720,104 1440,24 L1440,0 L0,0 Z" fill="var(--c-cream)"/></svg>
+    </div>
+
+    <!-- 7. PHOTO / ATMOSPHERE (dark) -->
+    <section class="company-atmosphere" aria-label="仕事の雰囲気">
+      <p class="company-atmosphere__eyebrow">Atmosphere</p>
+      <div class="atmosphere-grid">
+        <div class="atmosphere-grid__img">
+          <img src="assets/images/works-01.jpg" alt="現場施工の様子">
+        </div>
+        <div class="atmosphere-grid__img">
+          <img src="assets/images/works-03.jpg" alt="改修現場の様子">
+        </div>
+        <div class="atmosphere-grid__img">
+          <img src="assets/images/works-05.jpg" alt="仕上げ作業の様子">
+        </div>
+      </div>
+    </section>
+
+    <!-- ◎ アーチ：dark → cream -->
+    <div class="curve-divider" style="background:var(--c-dark);" aria-hidden="true">
+      <svg class="curve-divider__svg" viewBox="0 0 1440 72" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg"><path d="M0,48 Q720,-32 1440,48 L1440,72 L0,72 Z" fill="var(--c-cream)"/></svg>
+    </div>
+
+    <!-- 8. CTA (cream) -->
+    <section class="cta-band" aria-label="お問い合わせ">
+      <p class="cta-band__eyebrow">Contact</p>
+      <h2 class="cta-band__title">まずは、ご相談ください。</h2>
+      <p class="cta-band__text">
+        新築・改修・修繕、どんな小さなことでもお聞きします。<br>
+        初回相談は無料です。
+      </p>
+      <a href="contact.html" class="pill pill--dark">相談・問い合わせをする</a>
+    </section>
+
+    <!-- ◎ アーチ：cream → dark -->
+    <div class="curve-divider" style="background:var(--c-dark);" aria-hidden="true">
+      <svg class="curve-divider__svg" viewBox="0 0 1440 72" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg"><path d="M0,24 Q720,104 1440,24 L1440,0 L0,0 Z" fill="var(--c-cream)"/></svg>
     </div>
 
   </main>
 
-  <!-- ========================================================
-       FOOTER
-       ======================================================== -->
   <footer class="site-footer" role="contentinfo">
     <p class="site-footer__logo">REMEDORA BUILD</p>
     <p class="site-footer__tagline">ARCHITECTURE &amp; CONSTRUCTION</p>
     <nav class="site-footer__nav" aria-label="フッターナビゲーション">
       <a href="index.html">TOP</a>
+      <a href="service.html">SERVICE</a>
       <a href="company.html">COMPANY</a>
-      <a href="works.html">WORKS</a>
       <a href="recruit.html">RECRUIT</a>
+      <a href="contact.html">CONTACT</a>
+      <a href="privacy.html">PRIVACY</a>
     </nav>
     <div class="site-footer__rule" aria-hidden="true"></div>
     <p class="site-footer__copy">&copy; 2025 REMEDORA BUILD. All rights reserved.</p>
